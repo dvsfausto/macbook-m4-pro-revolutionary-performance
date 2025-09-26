@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook M4 Pro - Revolutionary Performance</title>
+    <style></style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook M4 Pro - Revolutionary Performance</title>
+    <meta name="description" content="Experience the future of computing with the new MacBook M4. Featuring groundbreaking M4 chip technology, stunning Liquid Retina display, and all-day battery life.">
+    <meta name="keywords" content="MacBook M4, Apple laptop, M4 chip, professional laptop, computing">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1d1d1f;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #007AFF;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #1d1d1f;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #007AFF;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 120px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>') repeat;
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: white;
+            color: #007AFF;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #007AFF;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            background: #f5f5f7;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: #1d1d1f;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e5e5e5;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1d1d1f;
+        }
+
+        .feature-card p {
+            color: #86868b;
+            line-height: 1.6;
+        }
+
+        /* Specs Section */
+        .specs {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .specs-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .specs-text h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #1d1d1f;
+        }
+
+        .specs-text p {
+            font-size: 1.1rem;
+            color: #86868b;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .specs-list {
+            list-style: none;
+        }
+
+        .specs-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #e5e5e5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .specs-list li:last-child {
+            border-bottom: none;
+        }
+
+        .spec-name {
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .spec-value {
+            color: #86868b;
+        }
+
+        .macbook-visual {
+            background: linear-gradient(135deg, #f5f5f7, #e5e5e5);
+            border-radius: 20px;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px;
+            position: relative;
+        }
+
+        .macbook-mockup {
+            width: 300px;
+            height: 200px;
+            background: #1d1d1f;
+            border-radius: 10px;
+            position: relative;
+            transform: perspective(600px) rotateX(15deg) rotateY(-15deg);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .macbook-screen {
+            width: 260px;
+            height: 160px;
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            border-radius: 5px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 0;
+            background: #1d1d1f;
+            color: white;
+        }
+
+        .testimonials .section-title {
+            color: white;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+
+        .author-info h4 {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .author-info p {
+            color: #86868b;
+            font-size: 0.9rem;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: #f5f5f7;
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .contact-info h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #1d1d1f;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            color: #86868b;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .contact-details {
+            list-style: none;
+        }
+
+        .contact-details li {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: #007AFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e5e5e5;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #007AFF;
+        }
+
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: #007AFF;
+            color: white;
+            padding: 1rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            background: #1d1d1f;
+            color: white;
+            padding: 40px 0 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section ul li a {
+            color: #86868b;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section ul li a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 1rem;
+            text-align: center;
+            color: #86868b;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.95);
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                padding: 1rem;
+                gap: 1rem;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .specs-content,
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .features-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .hero {
+                padding: 100px 0 60px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .feature-card,
+            .contact-form {
+                padding: 1.5rem;
+            }
+
+            .macbook-visual {
+                padding: 1rem;
+            }
+
+            .macbook-mockup {
+                width: 200px;
+                height: 130px;
+            }
+
+            .macbook-screen {
+                width: 170px;
+                height: 105px;
+                top: 12px;
+                left: 15px;
+                font-size: 0.8rem;
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">MacBook M4 Pro</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1>MacBook M4 Pro</h1>
+                    <p>Supercharged by the revolutionary M4 chip. Experience unprecedented performance, all-day battery life, and stunning visuals in the most advanced MacBook ever created.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Order Now</a>
+                        <a href="#features" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title fade-in">Revolutionary Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">⚡</div>
+                        <h3>M4 Chip Performance</h3>
+                        <p>Up to 40% faster CPU performance and 35% more efficient than M3. Handle the most demanding tasks with ease, from 8K video editing to complex 3D rendering.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">🔋</div>
+                        <h3>All-Day Battery Life</h3>
+                        <p>Up to 24 hours of battery life for video playback. Work, create, and stay productive all day without worrying about finding a power outlet.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">📱</div>
+                        <h3>Liquid Retina Display</h3>
+                        <p>Stunning 14-inch or 16-inch Liquid Retina XDR display with 1000 nits sustained brightness and 1600 nits peak brightness for HDR content.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Advanced GPU</h3>
+                        <p>Up to 32-core GPU delivers exceptional graphics performance for creative professionals and gamers. Ray tracing and machine learning acceleration included.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">🔊</div>
+                        <h3>Studio-Quality Audio</h3>
+                        <p>Six-speaker sound system with force-cancelling woofers and spatial audio support. Experience immersive sound like never before.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Advanced Security</h3>
+                        <p>Built-in Touch ID and Apple's T2 Security Chip provide hardware-level security for your data and privacy. Your information stays protected.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="specs" class="specs">
+            <div class="container">
+                <div class="specs-content">
+                    <div class="specs-text fade-in">
+                        <h2>Technical Specifications</h2>
+                        <p>The MacBook M4 Pro is engineered with cutting-edge technology and premium materials. Every component is optimized for maximum performance and efficiency.</p>
+                        <ul class="specs-list">
+                            <li>
+                                <span class="spec-name">Processor</span>
+                                <span class="spec-value">Apple M4 Pro (12-core CPU)</span>
+                            </li>
+                            <li>
+                                <span class="spec-name">Graphics</span>
+                                <span class="spec-value">Up to 32-core GPU</span>
+                            </li>
+                            <li>
+                                <span class="spec-name">Memory</span>
+                                <span class="spec-value">Up to 128GB Unified Memory</span>
+                            </li>
+                            <li>
+                                <span class="spec-name">Storage</span>
+                                <span class="spec-value">Up to 8TB SSD</span>
+                            </li>
+                            <li>
+                                <span class="spec-name">Display</span>
+                                <span class="spec-value">14" or 16" Liquid Retina XDR</span>
+                            </li>
+                            <li>
+                                <span class="spec-name">Ports</span>
+                                <span class="spec-value">4x Thunderbolt 4, HDMI, SD card</span>
+                            </li>
+                            <li>
+                                <span class="spec-name">Weight</span>
+                                <span class="spec-value">Starting at 3.4 lbs</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="macbook-visual fade-in">
+                        <div class="macbook-mockup">
+                            <div class="macbook-screen">
+                                MacBook M4 Pro
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title fade-in">What Our Customers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card fade-in">
+                        <p class="testimonial-text">"The M4 chip is absolutely incredible. I can edit 8K footage without any lag, and the battery lasts all day. This is the best laptop I've ever owned."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">JS</div>
+                            <div class="author-info">
+                                <h4>James Smith</h4>
+                                <p>Video Editor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card fade-in">
+                        <p class="testimonial-text">"As a software developer, the performance boost is game-changing. Compilation times are 50% faster, and I can run multiple VMs simultaneously without issues."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">ML</div>
+                            <div class="author-info">
+                                <h4>Maria Lopez</h4>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card fade-in">
+                        <p class="testimonial-text">"The display quality is stunning, and the build quality is exceptional. Perfect for graphic design work. I couldn't be happier with this purchase."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">DK</div>
+                            <div class="author-info">
+                                <h4>David Kim</h4>
+                                <p>Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info fade-in">
+                        <h2>Get Your MacBook M4 Pro</h2>
+                        <p>Ready to experience the future of computing? Contact our experts to find the perfect configuration for your needs. Free shipping, expert support, and flexible payment options available.</p>
+                        <ul class="contact-details">
+                            <li>
+                                <div class="contact-icon">📞</div>
+                                <span>1-800-MACBOOK (1-800-622-2665)</span>
+                            </li>
+                            <li>
+                                <div class="contact-icon">✉️</div>
+                                <span>sales@macbookm4pro.com</span>
+                            </li>
+                            <li>
+                                <div class="contact-icon">🏪</div>
+                                <span>Visit our stores nationwide</span>
+                            </li>
+                            <li>
+                                <div class="contact-icon">🚚</div>
+                                <span>Free shipping & returns</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="contact-form fade-in" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your needs or ask any questions..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">MacBook M4 Pro 14"</a></li>
+                        <li><a href="#">MacBook M4 Pro 16"</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Trade-in Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Technical Support</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">User Guides</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Social Media</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MacBook M4 Pro. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+
+        // Header background on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const phone = formData.get('phone');
+            const message = formData.get('message');
+            
+            // Simulate form submission
+            const submitBtn = this.querySelector('.submit-btn');
+            const originalText = submitBtn.textContent;
+            
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+            
+            setTimeout(() => {
+                alert(`Thank you ${name}! We'll contact you soon at ${email}.`);
+                this.reset();
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            }, 1500);
+        });
+
+        // Feature card hover effects
+        document.querySelectorAll('.feature-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // MacBook mockup rotation on scroll
+        window.addEventListener('scroll', () => {
+            const mockup = document.querySelector('.macbook-mockup');
+            if (mockup) {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * -0.1;
+                mockup.style.transform = `perspective(600px) rotateX(15deg) rotateY(${-15 + rate * 0.05}deg)`;
+            }
+        });
+
+        // Preload animations
+        window.addEventListener('load', () => {
+            document.querySelector('.hero-content').classList.add('visible');
+        });
+    </script>
+
+<script>
+
+// Professional form submission handling with lead capture
+(function() {
+  'use strict';
+  
+  // Configuration
+  const SUPABASE_URL = 'https://oarlvcaggvegsjvdeknk.supabase.co';
+  const COMPANY_ID = 'b318c6ed-b298-42cc-8587-0214700cf54e';
+  
+  // Validate company ID
+  if (!COMPANY_ID || COMPANY_ID === 'PLACEHOLDER_COMPANY_ID') {
+    console.error('❌ No valid company ID configured for lead capture');
+    return;
+  }
+  
+  // Utility functions
+  function showLoading(form) {
+    const submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.dataset.originalText = submitBtn.textContent || submitBtn.value;
+      if (submitBtn.tagName === 'BUTTON') {
+        submitBtn.textContent = 'Sending...';
+      } else {
+        submitBtn.value = 'Sending...';
+      }
+    }
+  }
+  
+  function hideLoading(form) {
+    const submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
+    if (submitBtn && submitBtn.dataset.originalText) {
+      submitBtn.disabled = false;
+      if (submitBtn.tagName === 'BUTTON') {
+        submitBtn.textContent = submitBtn.dataset.originalText;
+      } else {
+        submitBtn.value = submitBtn.dataset.originalText;
+      }
+    }
+  }
+  
+  function showSuccess(form, name, email) {
+    // Create or update success message
+    let successDiv = form.querySelector('.form-success');
+    if (!successDiv) {
+      successDiv = document.createElement('div');
+      successDiv.className = 'form-success';
+      successDiv.style.cssText = `
+        background: #10b981;
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-align: center;
+      `;
+      form.appendChild(successDiv);
+    }
+    
+    successDiv.innerHTML = `
+      <strong>Thank you${name ? ', ' + name : ''}!</strong><br>
+      Your message has been received successfully. We'll get back to you${email ? ' at ' + email : ''} soon.
+    `;
+    
+    // Hide form fields
+    const formFields = form.querySelectorAll('input, textarea, select');
+    formFields.forEach(field => {
+      if (field.type !== 'submit') {
+        field.style.display = 'none';
+      }
+    });
+    
+    // Hide submit button
+    const submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
+    if (submitBtn) {
+      submitBtn.style.display = 'none';
+    }
+  }
+  
+  function showError(form, message) {
+    // Create or update error message
+    let errorDiv = form.querySelector('.form-error');
+    if (!errorDiv) {
+      errorDiv = document.createElement('div');
+      errorDiv.className = 'form-error';
+      errorDiv.style.cssText = `
+        background: #ef4444;
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-align: center;
+      `;
+      form.appendChild(errorDiv);
+    }
+    
+    errorDiv.innerHTML = `
+      <strong>Error:</strong> ${message}<br>
+      Please try again or contact us directly.
+    `;
+    
+    // Auto-hide error after 5 seconds
+    setTimeout(() => {
+      if (errorDiv && errorDiv.parentNode) {
+        errorDiv.style.opacity = '0';
+        setTimeout(() => {
+          if (errorDiv && errorDiv.parentNode) {
+            errorDiv.parentNode.removeChild(errorDiv);
+          }
+        }, 300);
+      }
+    }, 5000);
+  }
+  
+  // Main form submission handler
+  async function handleFormSubmit(event) {
+    event.preventDefault();
+    
+    const form = event.target;
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+    
+    // Clear any existing messages
+    const existingMessages = form.querySelectorAll('.form-success, .form-error');
+    existingMessages.forEach(msg => msg.remove());
+    
+    // Show loading state
+    showLoading(form);
+    
+    try {
+      // Prepare lead data
+      const leadData = {
+        name: data.name || data.fullName || data.full_name || '',
+        email: data.email || '',
+        phone: data.phone || data.telephone || data.mobile || '',
+        company: data.company || data.organization || '',
+        notes: data.message || data.note || data.notes || data.comment || data.inquiry || '',
+        source_type: 'website_form',
+        list_name: 'Website Contact Forms',
+        metadata: {
+          form_source: 'ai_generated_website',
+          website_url: window.location.href,
+          form_timestamp: new Date().toISOString(),
+          user_agent: navigator.userAgent,
+          referrer: document.referrer
+        }
+      };
+      
+      // Validate required fields
+      if (!leadData.name || (!leadData.email && !leadData.phone)) {
+        throw new Error('Please provide your name and either an email or phone number.');
+      }
+      
+      // Submit to lead capture function
+      const response = await fetch(`${SUPABASE_URL}/functions/v1/submit-lead?company_id=${COMPANY_ID}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(leadData)
+      });
+      
+      const result = await response.json();
+      
+      if (response.ok && result.success) {
+        console.log('✅ Lead submitted successfully:', result);
+        showSuccess(form, leadData.name, leadData.email);
+        
+        // Reset form after success
+        setTimeout(() => {
+          form.reset();
+        }, 100);
+        
+      } else {
+        throw new Error(result.error || 'Failed to submit form');
+      }
+      
+    } catch (error) {
+      console.error('❌ Form submission error:', error);
+      showError(form, error.message || 'There was a problem submitting your form. Please try again.');
+    } finally {
+      hideLoading(form);
+    }
+  }
+  
+  // Initialize form handlers when DOM is ready
+  function initializeForms() {
+    const forms = document.querySelectorAll('form');
+    
+    forms.forEach(form => {
+      // Skip if already initialized
+      if (form.dataset.leadCaptureInitialized) {
+        return;
+      }
+      
+      // Check if this looks like a contact form
+      const hasContactFields = form.querySelector('input[name*="name"], input[name*="email"], input[name*="phone"], textarea[name*="message"]');
+      
+      if (hasContactFields) {
+        console.log('🎯 Initializing lead capture for form:', form);
+        form.addEventListener('submit', handleFormSubmit);
+        form.dataset.leadCaptureInitialized = 'true';
+      }
+    });
+  }
+  
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeForms);
+  } else {
+    initializeForms();
+  }
+  
+  // Also initialize on dynamic content changes
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+        // Check if any forms were added
+        mutation.addedNodes.forEach(function(node) {
+          if (node.nodeType === 1) { // Element node
+            if (node.tagName === 'FORM' || node.querySelector('form')) {
+              setTimeout(initializeForms, 100);
+            }
+          }
+        });
+      }
+    });
+  });
+  
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+  
+})();
+</script>
+</body>
+</html>
+    <script></script>
+</body>
+</html>
